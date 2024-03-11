@@ -1,5 +1,8 @@
 :root {
   --main-color: #21212e;
+  --main-yellow: #f1a800;
+  --gold-bright: #ad7f14;
+  --gold-dark: #9a7112;
 }
 
 * {
@@ -19,10 +22,14 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+a {
+  font-family: "Playfair Display", serif;
   text-wrap: balance;
 }
 
-p {
+p,
+button {
+  font-family: "Lato", sans-serif;
   text-wrap: pretty;
 }

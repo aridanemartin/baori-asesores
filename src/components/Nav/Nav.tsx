@@ -41,6 +41,11 @@ export default function Nav() {
                 Transparencia
               </Link>
             </li>
+            <li>
+              <Link className="link" to="/contacto" onClick={toggle}>
+                Contacto
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

@@ -1,3 +1,3 @@
-export const Transparency = () => {
+export const Transparencia = () => {
   return <div>Transparency</div>;
 };
