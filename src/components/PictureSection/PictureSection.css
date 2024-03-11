@@ -1,0 +1,43 @@
+.picture-section {
+  display: flex;
+
+  .picture-wrapper {
+    width: 50%;
+    grid-area: picture;
+
+    img {
+      height: 20rem;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .text {
+    width: 50%;
+    padding: 1rem;
+  }
+}
+
+.picture-section.right {
+  flex-direction: row-reverse;
+}
+
+/* @media (max-width: 1200px) {
+  .picture-section {
+    grid-template-areas: "picture" "image";
+    grid-template-columns: 1fr;
+    grid-template-rows: 20rem 1fr;
+
+    margin-bottom: 0;
+
+    &__picture-wrapper {
+      margin-bottom: 2rem;
+    }
+
+    &__text {
+      .textBlock {
+        padding: 0rem;
+      }
+    }
+  }
+} */

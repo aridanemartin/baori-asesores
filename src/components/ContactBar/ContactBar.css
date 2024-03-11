@@ -1,0 +1,21 @@
+.contactBar {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  height: fit-content;
+  color: #21212e;
+
+  padding: 1rem;
+
+  .email,
+  .phone {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0rem 1rem;
+
+    img {
+      height: 1rem;
+      width: 1rem;
+    }
+  }
+}
