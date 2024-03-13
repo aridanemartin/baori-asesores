@@ -13,7 +13,7 @@ const Home = () => {
           pictureSrc={ComputerImage}
           text={
             <>
-              <h2>Asesoría Fiscal</h2>
+              <h2 id="asesoria-fiscal">Asesoría Fiscal</h2>
               <p>
                 Con nuestra asesoría fiscal en Las Palmas, sabrás en todo
                 momento cuales son tus obligaciones fiscales y cual es el perfil
@@ -36,7 +36,7 @@ const Home = () => {
           pictureSrc={StockImage}
           text={
             <>
-              <h2>Asesoría Contable</h2>
+              <h2 id="asesoria-contable">Asesoría Contable</h2>
               <p>
                 Con nuestra asesoría contable en Las Palmas, tendrás
                 asesoramiento profesional permanente para garantizar que tu

@@ -32,7 +32,7 @@ export default function Nav() {
           </Link>
           <ul className="linksWrapper">
             <li>
-              <Link className="link" to="/">
+              <Link className="link" to="/" onClick={toggle}>
                 Inicio
               </Link>
             </li>
