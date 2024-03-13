@@ -13,7 +13,7 @@ summary::-webkit-details-marker {
   display: none;
 }
 
-span {
+summary > span {
   position: relative;
   display: flex;
   align-items: center;
@@ -23,11 +23,11 @@ span {
   height: 4rem;
 }
 
-span:hover {
+summary > span:hover {
   cursor: pointer;
 }
 
-span::before {
+summary > span::before {
   content: "►";
   font-size: 1rem;
   display: flex;
