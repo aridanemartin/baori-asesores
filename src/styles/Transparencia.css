@@ -1,0 +1,13 @@
+article {
+  padding: 1rem 0;
+}
+
+.transparencia {
+  .picture-wrapper {
+    height: auto;
+  }
+
+  img {
+    width: 100%;
+  }
+}
