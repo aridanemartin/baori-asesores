@@ -3,6 +3,7 @@ import TransparencyImage from "../assets/transparency.jpg";
 import PictureSection from "../components/PictureSection/PictureSection";
 import { NativeAccordion } from "../components/NativeAccordion/NativeAccordion";
 import organigrama from "../assets/organigrama.jpg";
+import subvencion from "../assets/subvencion.jpg";
 import "../styles/Transparencia.css";
 
 export const Transparencia = () => {
@@ -73,7 +74,7 @@ export const Transparencia = () => {
                   </ul>
                 </article>
               </NativeAccordion>
-              <NativeAccordion title="3. Organigrama">
+              <NativeAccordion title="3. Organigrama de la entidad">
                 <img src={organigrama} alt="Organigrama de la entidad" />
               </NativeAccordion>
               <NativeAccordion title="5. Administradores">
@@ -89,7 +90,7 @@ export const Transparencia = () => {
                   se desarrolla en el ámbito del asesoramiento empresarial.
                 </article>
               </NativeAccordion>
-              <NativeAccordion title="6. Canal interno de información">
+              <NativeAccordion title="6. Procedimientos - Canal interno de información">
                 <article>
                   La entidad{" "}
                   <strong>BAORI ASESORES Y CONSULTORES, S. COOP. CAN</strong> no
@@ -99,7 +100,7 @@ export const Transparencia = () => {
                   lucha contra la corrupción.
                 </article>
               </NativeAccordion>
-              <NativeAccordion title="7. Cuentas anuales">
+              <NativeAccordion title="7. Económico-financiera - Cuentas anuales">
                 <article>
                   La entidad{" "}
                   <strong>BAORI ASESORES Y CONSULTORES, S. COOP. CAN</strong>{" "}
@@ -112,7 +113,7 @@ export const Transparencia = () => {
                   mes de junio de 2024.
                 </article>
               </NativeAccordion>
-              <NativeAccordion title="8. Auditoría de cuentas anuales">
+              <NativeAccordion title="8. Económico-financiera - Auditoría de cuentas anuales">
                 <article>
                   La entidad{" "}
                   <strong>BAORI ASESORES Y CONSULTORES, S. COOP. CAN</strong>{" "}
@@ -126,7 +127,7 @@ export const Transparencia = () => {
                   los límites establecidos en la legislación vigente.
                 </article>
               </NativeAccordion>
-              <NativeAccordion title="9. Contratos con las administraciones públicas">
+              <NativeAccordion title="9. Contratos formalizados con las administraciones públicas">
                 <article>
                   La entidad{" "}
                   <strong>BAORI ASESORES Y CONSULTORES, S. COOP. CAN</strong> no
@@ -138,6 +139,93 @@ export const Transparencia = () => {
                   entidad privada en ningún procedimiento de licitación de
                   contratos administrativos.
                 </article>
+              </NativeAccordion>
+              <NativeAccordion title="10. Contratos formalizados con las administraciones públicas">
+                <article>
+                  La entidad{" "}
+                  <strong>BAORI ASESORES Y CONSULTORES, S. COOP. CAN</strong> no
+                  es una entidad obligada a cumplir con lo previsto en la Ley
+                  9/2017, de 8 de noviembre, de Contratos del Sector Público,
+                  por la que se transponen al ordenamiento jurídico español las
+                  Directivas del Parlamento Europeo y del Consejo 2014/23/UE y
+                  2014/24/UE, de 26 de febrero de 2014, ni ha participado como
+                  entidad privada en ningún procedimiento de licitación de
+                  contratos administrativos, por lo que no existen datos
+                  estadísticos sobre el volumen presupuestario de contratos
+                  adjudicados a través de cada uno de los procedimientos
+                  previstos en la legislación de contratos del sector público.
+                </article>
+              </NativeAccordion>
+              <NativeAccordion title="11. Contratos formalizados con las administraciones públicas - 	Decisiones de desistimiento y renuncia de los contratos">
+                <article>
+                  La entidad{" "}
+                  <strong>BAORI ASESORES Y CONSULTORES, S. COOP. CAN</strong> no
+                  es una entidad obligada a cumplir con lo previsto en la Ley
+                  9/2017, de 8 de noviembre, de Contratos del Sector Público,
+                  por la que se transponen al ordenamiento jurídico español las
+                  Directivas del Parlamento Europeo y del Consejo 2014/23/UE y
+                  2014/24/UE, de 26 de febrero de 2014, ni ha participado como
+                  entidad privada en ningún procedimiento de licitación de
+                  contratos administrativos, por lo que no existen
+                  modificaciones sobre los contratos formalizados.
+                </article>
+              </NativeAccordion>
+              <NativeAccordion title="12. Relación de contratos resueltos con entidades públicas">
+                <article>
+                  La entidad{" "}
+                  <strong>BAORI ASESORES Y CONSULTORES, S. COOP. CAN</strong> no
+                  es una entidad obligada a cumplir con lo previsto en la Ley
+                  9/2017, de 8 de noviembre, de Contratos del Sector Público,
+                  por la que se transponen al ordenamiento jurídico español las
+                  Directivas del Parlamento Europeo y del Consejo 2014/23/UE y
+                  2014/24/UE, de 26 de febrero de 2014, ni ha participado como
+                  entidad privada en ningún procedimiento de licitación de
+                  contratos administrativos, por lo que no existen decisiones de
+                  desistimiento y renuncia de los contratos.
+                </article>
+              </NativeAccordion>
+              <NativeAccordion title="13. Información trimestral de contratos menores con entidades públicas">
+                <article>
+                  La entidad{" "}
+                  <strong>BAORI ASESORES Y CONSULTORES, S. COOP. CAN</strong> no
+                  es una entidad obligada a cumplir con lo previsto en la Ley
+                  9/2017, de 8 de noviembre, de Contratos del Sector Público,
+                  por la que se transponen al ordenamiento jurídico español las
+                  Directivas del Parlamento Europeo y del Consejo 2014/23/UE y
+                  2014/24/UE, de 26 de febrero de 2014, ni ha participado como
+                  entidad privada en ningún procedimiento de licitación de
+                  contratos administrativos, por lo que no existen contratos
+                  menores formalizados.
+                </article>
+              </NativeAccordion>
+              <NativeAccordion title="14. Convenios y encomiendas de gestión - Convenios con entidades públicas">
+                <article>
+                  La entidad{" "}
+                  <strong>BAORI ASESORES Y CONSULTORES, S. COOP. CAN</strong> no
+                  es una entidad obligada a cumplir con lo previsto en la Ley
+                  9/2017, de 8 de noviembre, de Contratos del Sector Público,
+                  por la que se transponen al ordenamiento jurídico español las
+                  Directivas del Parlamento Europeo y del Consejo 2014/23/UE y
+                  2014/24/UE, de 26 de febrero de 2014, ni ha formalizado como
+                  entidad privada ningún convenio con entidades públicas.
+                </article>
+              </NativeAccordion>
+              <NativeAccordion title="15. Convenios y encomiendas de gestión - Convenios con entidades públicas">
+                <article>
+                  La entidad{" "}
+                  <strong>BAORI ASESORES Y CONSULTORES, S. COOP. CAN</strong> no
+                  es una entidad obligada a cumplir con lo previsto en la Ley
+                  9/2017, de 8 de noviembre, de Contratos del Sector Público,
+                  por la que se transponen al ordenamiento jurídico español las
+                  Directivas del Parlamento Europeo y del Consejo 2014/23/UE y
+                  2014/24/UE, de 26 de febrero de 2014, ni ha formalizado como
+                  entidad privada ningún convenio con entidades públicas, y por
+                  lo tanto no se han realizado modificaciones realizadas durante
+                  su vigencia.
+                </article>
+              </NativeAccordion>
+              <NativeAccordion title="16. Convenios y encomiendas de gestión - Convenios con entidades públicas">
+                <img src={subvencion} alt="Organigrama de la entidad" />
               </NativeAccordion>
             </>
           }
