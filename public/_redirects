@@ -1,5 +1,1 @@
 /\* /index.html 200
-
-# Redirect default Netlify subdomain to primary domain
-
-https://baori-asesores.netlify.app//* https://baori-asesores.netlify.app/:splat 301!
